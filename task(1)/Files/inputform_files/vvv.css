@@ -495,33 +495,15 @@ input:hover label,input:hover label{
  
 }
 
-/* 
+/* .thanks-main{
+  position: absolute;
+  left:20%;
+  top:20%;
 } */
 .select-option{
   width:100%;
-  padding: 10px 40px 10px 10px;
+  padding: 10px;
   margin-bottom: 10px;
-border:2px solid grey;
-background: none;
-border-radius: 2px;
+  margin-left: 10px;
   margin-right: 10px;
   } 
-  .select-option-job{
-    width:100%;
-    padding: 10px 60px 10px 10px;
-    margin-bottom: 10px;
-    border:2px solid grey;
-  margin-left: 10px;
-    margin-right: 10px;
-    background: none;
-    } 
-  .float-left{
-    margin-left:30px;
-  }
-
-  .thanks-main{
-    position: absolute;
-    left:20%;
-    top:20%;
-  }
-  

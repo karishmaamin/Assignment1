@@ -15,60 +15,26 @@
 </head>
 
 <body>
-	<header class="header">
-        
-   
-		<nav class="nav-container" role="navigation">
-			
-				<a href="#" class="logo" tabindex="1"><img src="task(1)/Files/logo.svg" alt="logo" /></li></a>
-		
-				<div class="nav-container_div" id="nav-div">
-					
-					<ul class="nav-container_ul">
-						
-						<li><a href="#" tabindex="8" class="navbar"><i class="fa fa-search" aria-hidden="true"></i>  FIND YOUR HOME</a></li>
-						<li><a href="#" class="navbar" tabindex="2">FLOOR PLANS</a>
-	
-							
-							<ul  class="dropdown" aria-label="submenu">
-								<li><a href="#" class="navbar">BLOCK1</a></li>
-								<li><a href="#" class="navbar">BLOCK2</a></li>
-								<li><a href="#" class="navbar">BLOCK3</a></li>
-							</ul>
-						
-						</li>
-						<li><a href="#" tabindex="3" class="navbar">NEWS</a>
-						<ul class="dropdown" aria-label="submenu">
-							<li><a href="#" class="navbar">ITEM1</a></li>
-							<li><a href="#" class="navbar">ITEM2</a></li>
-	
-							<li><a href="#" class="navbar">ITEM3</a></li>
-						</ul>
-					
-						 </li>
-	
-						<li><a href="#" tabindex="4" class="navbar">RESOURCES</a>
-						<ul class="dropdown" aria-label="submenu">
-							<li><a href="#" class="navbar">RESOURCES1</a></li>
-							<li><a href="#" class="navbar">RESOURCES2</a></li>
-	
-							<li><a href="#" class="navbar">RESOURCES3</a></li>
-						</ul>
-					</li>
-						<li><a tabindex="5" href="#" class="navbar">ABOUT US</a></li>
-						<li><a href="inputform.html" tabindex="6" class="navbar">CONTACT US</a></li>
-						<li><button tabindex="7" class="header__navbar__btn"><i class="fa fa-phone" aria-hidden="true"></i>  844-766-HOME(4663)</button></li>
-					   
-		
-					</ul>
-																																																																																																																		
-				</div>
-			
+	<header>
+		<div class="header__navbar">
+			<img class="header__navbar__logo" src="task(1)\Files\logo.svg">
+			<nav>
+				<a href="#"><i class="fa fa-search" aria-hidden="true"></i>FIND YOUR HOME</a>
+				<a href="#">FLOOR PLANS</a>
+				<a href="#">RESOURCES</a>
+				<a href="#">NEWS</a>
+				<a href="#">ABOUT US</a>
+				<a href="#">CONTACT US</a>
+				<button class="header__navbar__btn"><i class="fa fa-phone"
+						aria-hidden="true"></i>844-766-HOME(4663)</button>
 			</nav>
-	
-		</header>
-	
+		</div>
+	</header>
 
+
+
+
+	
 	<div class="bannerContainer">
 		<img src="task(1)\Files\mail-banner.jpg" class="bannerContainer__mainImage">
 		<div class="transparentContainer">
@@ -99,20 +65,20 @@
 	<div class="thirdContainer">
 		<div class="thirdContainer__left">
 
-			<div id="tab1" tabindex="0" class="thirdContainer__left__top" onclick="div_function(this.id)" onkeypress="div_function(this.id)">
+			<div id="tab1" tabindex="0" class="thirdContainer__left__top" onkeydown="div_function(this.id)">
 				<h4>2018</h4>
 				<p class="thirdContainer__left__text">
 					Weather refers to day-to-day temperature and precipitation activity,
 				</p>
 			</div>
-			<div id="tab2" tabindex="0" class="thirdContainer__left__middle" onclick="div_function(this.id)" onkeypress="div_function(this.id)">
+			<div id="tab2" tabindex="0" class="thirdContainer__left__middle" onkeydown="div_function(this.id)">
 				<h4>WINNER!
 				</h4>
 				<p class="thirdContainer__left__text">
 					Weather refers to day-to-day temperature and precipitation activity,
 				</p>
 			</div>
-			<div id="tab3" tabindex="0" class="thirdContainer__left__bottom" onclick="div_function(this.id)" onkeypress="div_function(this.id)">
+			<div id="tab3" tabindex="0" class="thirdContainer__left__bottom" onkeydown="div_function(this.id)">
 				<h4>GREEN TAG
 				</h4>
 				<p class="thirdContainer__left__text">

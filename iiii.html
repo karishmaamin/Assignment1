@@ -1,0 +1,204 @@
+<html>
+
+<head>
+    <title></title>
+</head>
+<style>
+    .div-container {
+        position: absolute;
+        left: 30%;
+        top: 0;
+        padding: 10px;
+        width: 500px;
+        background-color: blue;
+    }
+
+    .div-header {
+        line-height: 100px;
+        background-color: DodgerBlue;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .flex-container1 {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: blue;
+
+
+    }
+
+    .flex-container1>div {
+        background-color: DodgerBlue;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 50%;
+        height: 400px;
+    }
+
+
+    .flex-container2 {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: blue;
+
+
+    }
+
+    .flex-container2>div {
+        background-color: DodgerBlue;
+
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 50%;
+        height: 100px;
+    }
+
+
+
+    .flex-container4{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: blue;
+
+
+    }
+    .flex-container4>div {
+        background-color: DodgerBlue;
+        
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 50%;
+       
+    }
+ 
+    .div-content4left {
+        background-color: DodgerBlue;
+
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 50%;
+       
+    } 
+
+   .div-content4right {
+
+        display: flex;
+       flex-wrap: wrap;
+        background-color:black;
+      
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 50%;
+        
+    }
+
+
+    .sub4-container{
+        flex-grow: 1;
+        background-color: blue;
+        margin:10px;
+        
+    }
+    .sub4-div-bottom{
+      
+       width:100%;
+       background-color: blue;
+        margin:10px;
+    }
+
+
+
+
+    .flex-container5 {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: blue;
+
+
+    }
+
+    .flex-container5>div {
+        background-color: DodgerBlue;
+
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 50%;
+        height: 100px;
+    }
+    
+</style>
+
+<body>
+    <div class="div-container">
+
+        <div class="div-header">
+            <h1>header</h1>
+        </div>
+
+
+        <div class="flex-container1">
+            <div>1</div>
+            <div>2</div>
+        </div>
+
+        <div class="flex-container2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+
+        </div>
+
+
+        <div class="flex-container4">
+
+
+            <div class="div-content4left">
+                <h2>aaa</h2>
+            </div>
+
+
+            <div class="div-content4right">
+
+                <div class="sub4-container">
+                    <h2>aaa</h2>
+                </div>
+
+                <div class="sub4-container">
+                    <h2>aaa</h2>
+                </div>
+
+                 <div class="sub4-div-bottom">
+                    <h1>ddd</h1>
+                </div> 
+
+            </div> 
+
+        </div>
+
+
+            <div class="flex-container5">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+
+            </div> 
+
+       </div>
+
+</body>
+
+</html>
