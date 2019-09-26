@@ -10,12 +10,7 @@
 		function div_function(id) {
 			var x = document.getElementById(id).innerHTML;
 			document.getElementById("thirdContainer__right__default").innerHTML = x;
-
-
-		}
-
-
-
+}
 	</script>
 </head>
 
@@ -65,20 +60,21 @@
 
 	<div class="thirdContainer">
 		<div class="thirdContainer__left">
-			<div id="tab1" class="thirdContainer__left__top" onclick="div_function(this.id)">
+
+			<div id="tab1" tabindex="0" class="thirdContainer__left__top" onkeydown="div_function(this.id)">
 				<h4>2018</h4>
 				<p class="thirdContainer__left__text">
 					Weather refers to day-to-day temperature and precipitation activity,
 				</p>
 			</div>
-			<div id="tab2" class="thirdContainer__left__middle" onclick="div_function(this.id)">
+			<div id="tab2" tabindex="0" class="thirdContainer__left__middle" onkeydown="div_function(this.id)">
 				<h4>WINNER!
 				</h4>
 				<p class="thirdContainer__left__text">
 					Weather refers to day-to-day temperature and precipitation activity,
 				</p>
 			</div>
-			<div id="tab3" class="thirdContainer__left__bottom" onclick="div_function(this.id)">
+			<div id="tab3" tabindex="0" class="thirdContainer__left__bottom" onkeydown="div_function(this.id)">
 				<h4>GREEN TAG
 				</h4>
 				<p class="thirdContainer__left__text">
@@ -137,21 +133,20 @@
 
 		<div class="footerContact">
 			<ul>
-				<li>Contact Us</li>
-				<li>FAQ</li>
-				<li>Logo Terms</li>
-				<li>Privacy policy</li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Logo Terms</a></li>
+				<li><a href="#">Privacy policy</a></li>
 			</ul>
 		</div>
 
 		<div class="footerSocial">
 			<ul>
-				<li><img src="task(1)\Files\instagram-icon.svg"></li>
-				<li><img src="task(1)\Files\twitter-icon.svg"></li>
-				<li><img src="task(1)\Files\facebook-icon.svg"></li>
 				<li>FOLLOW US</li>
-
-
+				<li><a href="#"><img src="task(1)\Files\instagram-icon.svg"></a></li>
+				<li><a href="#"><img src="task(1)\Files\twitter-icon.svg"></a></li>
+				<li><a href="#"><img src="task(1)\Files\facebook-icon.svg"></a></li>
+				
 			</ul>
 		</div>
 
